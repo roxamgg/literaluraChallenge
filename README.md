@@ -61,7 +61,8 @@ Abre el archivo src/main/resources/application.properties y modifica las siguien
   - spring.datasource.driver-class-name=org.postgresql.Driver
   - spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
   - spring.jpa.hibernate.ddl-auto=update
-  - spring.jpa.show-sql=true    
+  - spring.jpa.show-sql=true
+    
 **Asegúrate de reemplazar tu_usuario, tu_contraseña y literalura_db con las variables de entorno correspondientes a la configuración de PostgreSQL.**
 4. **Compilar y ejecutar el proyecto**.
 5. **Acceder a la aplicación**:
