@@ -64,6 +64,7 @@ Abre el archivo src/main/resources/application.properties y modifica las siguien
   - spring.jpa.show-sql=true
     
 **Asegúrate de reemplazar tu_usuario, tu_contraseña y literalura_db con las variables de entorno correspondientes a la configuración de PostgreSQL.**
+
 4. **Compilar y ejecutar el proyecto**.
 5. **Acceder a la aplicación**:
 Una vez que la aplicación esté ejecutándose, podrás interactuar con ella a través de la consola. Se te presentará un menú para seleccionar las diferentes opciones disponibles.
