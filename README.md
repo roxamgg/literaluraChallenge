@@ -55,13 +55,13 @@ Antes de ejecutar el proyecto, asegúrate de tener instalados:
 Antes de ejecutar el proyecto, asegúrate de que tienes una base de datos PostgreSQL configurada y en funcionamiento. Crea una base de datos, por ejemplo,       literalura_db, y asegúrate de tener las credenciales correctas.
 3. **Modificar la configuración de la base de datos**:
 Abre el archivo src/main/resources/application.properties y modifica las siguientes líneas para conectar la aplicación con tu base de datos PostgreSQL:
-  spring.datasource.url=jdbc:postgresql://localhost:5432/literalura_db
-  spring.datasource.username=tu_usuario
-  spring.datasource.password=tu_contraseña
-  spring.datasource.driver-class-name=org.postgresql.Driver
-  spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
-  spring.jpa.hibernate.ddl-auto=update
-  spring.jpa.show-sql=true
+  - spring.datasource.url=jdbc:postgresql://localhost:5432/literalura_db
+  - spring.datasource.username=tu_usuario
+  - spring.datasource.password=tu_contraseña
+  - spring.datasource.driver-class-name=org.postgresql.Driver
+  - spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+  - spring.jpa.hibernate.ddl-auto=update
+  - spring.jpa.show-sql=true
 Asegúrate de reemplazar tu_usuario, tu_contraseña y literalura_db con las variables de entorno correspondientes a la configuración de PostgreSQL.
 4. **Compilar y ejecutar el proyecto**.
 5. **Acceder a la aplicación**:
